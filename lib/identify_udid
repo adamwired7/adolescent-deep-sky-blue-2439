@@ -3,6 +3,8 @@
 # Adam Cockell
 # January 2014
 
+another line here
+
 platform=($(echo $1 | awk '{print tolower($0)}'))
 cudid=0
 
@@ -25,3 +27,6 @@ done
 udid=${udid// /}
 
 echo $udid
+
+
+and here
